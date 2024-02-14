@@ -1,5 +1,7 @@
 This is a regression introduced in the .NET 8 SDK when compiling projects targeting net48. What previously used to work fine now leads to an infinite loop at runtime.
 
+`dotnet/sdk` issue: https://github.com/dotnet/sdk/issues/38746
+
 ## Scenarios
 
 Several cases have been tested, varying on target framework, configuration, and SDK version. These tests cases can be run by passing the case number as an argument to the application.
